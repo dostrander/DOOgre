@@ -1,9 +1,9 @@
 //
-//  DOAppDelegate.m
-//  DOOgre
+//  DOCircleLayer.h
+//  Pods
 //
-//  Created by Derek Ostrander on 08/20/2015.
-//  Copyright (c) 2015 Derek Ostrander. All rights reserved.
+//  Created by Derek Ostrander on 8/20/15.
+//
 //
 // The MIT License (MIT)
 //
@@ -27,8 +27,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#import "DOAppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
-@implementation DOAppDelegate
+@interface DOCircleLayer : CALayer
 
 @end

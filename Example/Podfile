@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'DOOgre_Example', :exclusive => true do
   pod "DOOgre", :path => "../"
+  pod 'RZUtils/Categories/UIView'
 end
 
 target 'DOOgre_Tests', :exclusive => true do
