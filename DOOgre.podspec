@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = "DOOgre"
     s.version          = "1.0.0"
-    s.summary          = "A CALayer subclass that will turn your view circular."
+    s.summary          = "CALayer subclasses that are pretty awesome and I don't want to recreate."
     s.description      = <<-DESC
 Ogre's are like onions and so are view's. They have (CA)Layers!
 This layer can be added as a baseLayer to any UIView subclass and it will make it circular and animatable.

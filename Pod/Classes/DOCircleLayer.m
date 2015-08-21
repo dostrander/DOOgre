@@ -35,13 +35,19 @@ static NSString* const kRZCornerRadiusAnimationKey = @"kDOCornerRadiusAnimationK
 
 @implementation DOCircleLayer
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.masksToBounds = YES;
+    }
+    return self;
+}
+
 - (void)setBounds:(CGRect)bounds
 {
     [super setBounds:bounds];
-
-    CGFloat unborderedRadius = CGRectGetHeight(bounds) / 2.0f;
-    CGFloat borderedRadius = unborderedRadius + self.borderWidth / 2.0f;
-    [self do_setCornerRadius:borderedRadius];
+    [self do_setCornerRadius:CGRectGetHeight(bounds) / 2.0f];
 }
 
 // set corner radius animation to sync with bounds animation

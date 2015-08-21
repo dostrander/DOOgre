@@ -29,6 +29,9 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+/**
+ *  DOCircleLayer provides a Layer class to make your UIView circular based on it's Height, no messing around needed!
+ */
 @interface DOCircleLayer : CALayer
 
 @end
