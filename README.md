@@ -3,8 +3,7 @@
 [![CI Status](http://img.shields.io/travis/Derek Ostrander/DOOgre.svg?style=flat)](https://travis-ci.org/Derek Ostrander/DOOgre)
 [![Version](https://img.shields.io/cocoapods/v/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
 [![License](https://img.shields.io/cocoapods/l/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
-[![Platform](https://img.shields.io/cocoapods/p/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
-
+[![Platform](https://img.shields.io/cocoapods/p/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)  
 Ogre's are like onions and so are view's. They have (CA)Layers!
 
 <p align="center"><img src="https://github.com/dostrander/DOOgre/blob/master/ogres-are-like-onion.gif"/></p>
