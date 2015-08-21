@@ -24,11 +24,14 @@ The best way to use it is to set the layer class on the view you want to effect.
 	return [DOCircleLayer class];
 }
 ```
-
 Layers effetcs:  
-* 	Circles  
-* 	Animatable Border (coming soon)
-* 	Circle borders (coming soon)
+
+*   Circles:
+	* This will cause funky layout's if you animate CALayer.bounds directly. Fix coming...
+* 	Animatable Border 
+	*  (coming soon)
+* 	Circle borders 
+	*   (coming soon)
 	
 There are layers for circles and borders. If you want to add one go ahead and submit a pull request! :)
 
