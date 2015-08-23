@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
 [![License](https://img.shields.io/cocoapods/l/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
 [![Platform](https://img.shields.io/cocoapods/p/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)  
-Ogre's are like onions and so are view's. They have (CA)Layers!
+Ogre's are like onions and so are views. They have (CA)Layers!
 
 <p align="center"><img src="https://github.com/dostrander/DOOgre/blob/master/ogres-are-like-onion.gif"/></p>
 
@@ -14,18 +14,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Basic Overview  
 The layers are meant to be base layers unless otherwise specified.  
 
-The best way to use it is to set the layer class on the view you want to effect.
+The best way to use it is to set the `+layerClass` on the view you want to affect:
 
-```
+```objc
 + (Class)layerClass 
 {
-	return [DOCircleLayer class];
+    return [DOCircleLayer class];
 }
 ```
-Layers effetcs:  
+Layers effects:  
 
 *   Circles:
-	* This will cause funky layout's if you animate CALayer.bounds directly. Fix coming...
+	* This will cause funky layouts if you animate `CALayer.bounds` directly. Fix coming...
 * 	Animatable Border 
 	*  (coming soon)
 * 	Circle borders 
@@ -36,11 +36,10 @@ There are layers for circles and borders. If you want to add one go ahead and su
 
 ## Installation
 
-DOOgre is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+DOOgre is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
-```        
-pod "DOOgre"
+```ruby
+pod 'DOOgre'
 ```
 
 ## Author
