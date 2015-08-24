@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
 [![License](https://img.shields.io/cocoapods/l/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)
 [![Platform](https://img.shields.io/cocoapods/p/DOOgre.svg?style=flat)](http://cocoapods.org/pods/DOOgre)  
-Ogre's are like onions and so are views. They have (CA)Layers!
+Ogres are like onions and so are views. They have (CA)Layers!
 
 <p align="center"><img src="https://github.com/dostrander/DOOgre/blob/master/ogres-are-like-onion.gif"/></p>
 
